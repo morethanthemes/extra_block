@@ -1,0 +1,27 @@
+uuid: 66d3dfc6-6f7e-47fc-9ca8-dfced44397fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - corporateclean
+_core:
+  default_config_hash: 6v6fnsFxlj_tTHMa3keV4Auckj6AT7XSN_aH85gDs8o
+id: corporateclean_footer
+theme: corporateclean
+region: footer_second
+weight: -6
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Legal
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
